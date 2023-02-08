@@ -31,15 +31,25 @@
   width: 100%;
   margin: 0 auto;
   display: grid;
-  gap: 20px;
+  row-gap: 10px;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr 3fr;
 }
 
 .trabalhista-container img {
-  grid-column: 1;
-  grid-row: 1 / 3;
+  grid-row: 1/-1;
 }
 
 .trabalhista-container h1 {
   place-self: end start;
+  padding: 20px 200px 0 0;
+}
+
+.trabalhista-container h4 {
+  padding: 0 200px 0 0;
+}
+
+.trabalhista-container ul {
+  place-self: start;
+  padding: 15px 0;
 }
