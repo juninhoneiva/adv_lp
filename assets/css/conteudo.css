@@ -1,8 +1,7 @@
 .header-container {
-  position: fixed;
-  width: 100%;
-  background: url(/assets/img/background-top.jpg) no-repeat right top;
+  background: url(/assets/img/background-top.jpg);
   background-size: cover;
+  box-shadow: 0 3px 5px -2px #17434e55;
 }
 
 .top-content {
@@ -19,7 +18,7 @@
   place-self: end end;
 }
 
-.top-content ul {
+.top-content a {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -35,4 +34,86 @@
 .top-content h1 {
   text-transform: uppercase;
   line-height: 1.2;
+}
+
+.secao1 {
+  width: 100%;
+}
+
+.secao1-container {
+  padding: 50px 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao1-container h4 {
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 50px 30px;
+  box-shadow: 0 3px 5px -2px #17434e55;
+}
+
+.t-deco {
+  background: url(/assets/img/greve\ 1.png) no-repeat center right;
+  padding: 0 80px;
+  font-size: 6.1rem;
+  color: var(--v3);
+  opacity: 30%;
+}
+
+.secao2 {
+  width: 100%;
+  background-color: #fff;
+}
+
+.secao2-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  padding: 100px 150px;
+}
+
+.secao2-container h1 {
+  position: relative;
+}
+.secao2-container h1::before {
+  content: url(/assets/img/deco-titulo2.png);
+  position: absolute;
+  left: -40px;
+  top: -45px;
+}
+
+.secao2-container img {
+  grid-row: 1 / 4;
+  grid-column: 2;
+  place-self: center;
+}
+
+.secao2-container ul {
+  display: grid;
+  gap: 20px;
+  grid-row: 2 / 5;
+  place-self: center start;
+}
+
+.secao2-container li {
+  display: flex;
+}
+
+.secao2-container li svg {
+  width: 100px;
+}
+
+.secao2-container li h4 {
+  padding: 0 20px;
+  line-height: 1.5;
+}
+
+.secao2-container a {
+  grid-row: 4;
+  grid-column: 2;
 }

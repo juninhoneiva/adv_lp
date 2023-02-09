@@ -1,39 +1,47 @@
-.p-btn a {
+.p-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-self: center;
+  letter-spacing: 0.8px;
+  gap: 15px;
   padding: 10px 20px;
   border-radius: 50px;
   box-shadow: 2px 0 4px -3px rgba(0, 0, 0, 0.5);
   background-color: var(--v5);
   text-transform: uppercase;
+  font-weight: 600;
   transition: ease-in 0.3s;
 }
 
-.bot-inbox a {
-  padding: 5px 10px;
-  border-radius: 50px;
-  box-shadow: 2px 0 4px -3px rgba(0, 0, 0, 0.5);
-  background-color: var(--v5);
-  text-transform: uppercase;
-  transition: ease-in 0.3s;
-}
-
-.p-btn a:hover,
-.bot-inbox a:hover {
+.p-btn:hover {
   background-color: var(--v7);
   color: var(--v2);
 }
 
 .s-btn {
-  padding: 10px 20px;
+  display: flex;
+  border: 1px solid var(--v1);
   border-radius: 50px;
-  border: solid 1px var(--v1);
-  font-weight: 600;
+  padding: 0.5rem 1rem;
   color: var(--v1);
-  text-transform: uppercase;
-  transition: ease-in 0.3s;
+  font-weight: 600;
+  gap: 15px;
+  align-items: center;
+  justify-self: center;
+  place-self: center;
+  letter-spacing: 0.8px;
 }
 
 .s-btn:hover {
-  background-color: var(--v5);
+  background: var(--v1);
+  color: var(--v7);
+  transition: all ease-in 0.3s;
+}
+
+.s-btn:hover path {
+  fill: var(--v7);
+  transition: all ease-in 0.3s;
 }
 
 .font-xl {
