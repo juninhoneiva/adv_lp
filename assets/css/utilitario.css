@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   place-self: center;
-  letter-spacing: 0.8px;
   gap: 15px;
   padding: 10px 20px;
   border-radius: 50px;
@@ -30,7 +29,6 @@
   align-items: center;
   justify-self: center;
   place-self: center;
-  letter-spacing: 0.8px;
 }
 
 .s-btn:hover {
@@ -42,6 +40,12 @@
 .s-btn:hover path {
   fill: var(--v7);
   transition: all ease-in 0.3s;
+}
+
+@media screen and (max-width: 999px) {
+  .s-btn {
+    font-weight: 400;
+  }
 }
 
 .font-xl {
