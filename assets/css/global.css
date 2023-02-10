@@ -24,7 +24,7 @@
 }
 html {
   scroll-behavior: smooth;
-  font-family: Helvetica, sans-serif, Arial;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
@@ -36,8 +36,14 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--v1);
+  color: var(--v6);
   display: inline-block;
+}
+
+a:hover {
+  color: var(--v8);
+  text-decoration: underline;
+  transition: 0.3s ease-in;
 }
 
 ul,

@@ -7,6 +7,7 @@
   padding: 10px 20px;
   border-radius: 50px;
   box-shadow: 2px 0 4px -3px rgba(0, 0, 0, 0.5);
+  color: var(--v1);
   background-color: var(--v5);
   text-transform: uppercase;
   font-weight: 600;
