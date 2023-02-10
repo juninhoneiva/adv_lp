@@ -1,5 +1,5 @@
-@import "/assets/css/conteudo.css";
-@import "/assets/css/utilitario.css";
+@import "conteudo.css";
+@import "utilitario.css";
 
 :root {
   --v8: #082b34;
